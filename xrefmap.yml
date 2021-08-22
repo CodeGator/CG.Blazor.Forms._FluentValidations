@@ -1,0 +1,31 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG.Blazor.Forms.Attributes
+  name: CG.Blazor.Forms.Attributes
+  href: api/CG.Blazor.Forms.Attributes.html
+  commentId: N:CG.Blazor.Forms.Attributes
+  fullName: CG.Blazor.Forms.Attributes
+  nameWithType: CG.Blazor.Forms.Attributes
+- uid: CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute
+  name: RenderFluentValidationValidatorAttribute
+  href: api/CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.html
+  commentId: T:CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute
+  fullName: CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute
+  nameWithType: RenderFluentValidationValidatorAttribute
+- uid: CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.Generate(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder,System.Int32,Microsoft.AspNetCore.Components.IHandleEvent,System.Collections.Generic.Stack{System.Object},System.Reflection.PropertyInfo,Microsoft.Extensions.Logging.ILogger{CG.Blazor.Forms.Services.IFormGenerator})
+  name: Generate(RenderTreeBuilder, Int32, IHandleEvent, Stack<Object>, PropertyInfo, ILogger<IFormGenerator>)
+  href: api/CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.html#CG_Blazor_Forms_Attributes_RenderFluentValidationValidatorAttribute_Generate_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_System_Int32_Microsoft_AspNetCore_Components_IHandleEvent_System_Collections_Generic_Stack_System_Object__System_Reflection_PropertyInfo_Microsoft_Extensions_Logging_ILogger_CG_Blazor_Forms_Services_IFormGenerator__
+  commentId: M:CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.Generate(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder,System.Int32,Microsoft.AspNetCore.Components.IHandleEvent,System.Collections.Generic.Stack{System.Object},System.Reflection.PropertyInfo,Microsoft.Extensions.Logging.ILogger{CG.Blazor.Forms.Services.IFormGenerator})
+  name.vb: Generate(RenderTreeBuilder, Int32, IHandleEvent, Stack(Of Object), PropertyInfo, ILogger(Of IFormGenerator))
+  fullName: CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.Generate(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder, System.Int32, Microsoft.AspNetCore.Components.IHandleEvent, System.Collections.Generic.Stack<System.Object>, System.Reflection.PropertyInfo, Microsoft.Extensions.Logging.ILogger<CG.Blazor.Forms.Services.IFormGenerator>)
+  fullName.vb: CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.Generate(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder, System.Int32, Microsoft.AspNetCore.Components.IHandleEvent, System.Collections.Generic.Stack(Of System.Object), System.Reflection.PropertyInfo, Microsoft.Extensions.Logging.ILogger(Of CG.Blazor.Forms.Services.IFormGenerator))
+  nameWithType: RenderFluentValidationValidatorAttribute.Generate(RenderTreeBuilder, Int32, IHandleEvent, Stack<Object>, PropertyInfo, ILogger<IFormGenerator>)
+  nameWithType.vb: RenderFluentValidationValidatorAttribute.Generate(RenderTreeBuilder, Int32, IHandleEvent, Stack(Of Object), PropertyInfo, ILogger(Of IFormGenerator))
+- uid: CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.Generate*
+  name: Generate
+  href: api/CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.html#CG_Blazor_Forms_Attributes_RenderFluentValidationValidatorAttribute_Generate_
+  commentId: Overload:CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.Generate
+  isSpec: "True"
+  fullName: CG.Blazor.Forms.Attributes.RenderFluentValidationValidatorAttribute.Generate
+  nameWithType: RenderFluentValidationValidatorAttribute.Generate
