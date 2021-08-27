@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Components.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace CG.Blazor.Forms.Attributes
@@ -38,7 +39,7 @@ namespace CG.Blazor.Forms.Attributes
     /// }
     /// </code>
     /// </example>
-    [AttributeUsage(AttributeTargets.Class)]
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
     public class RenderFluentValidationValidatorAttribute : FormValidationAttribute
     {
         // *******************************************************************
@@ -65,9 +66,22 @@ namespace CG.Blazor.Forms.Attributes
 
             try
             {
+                // Should never happen, but, pffft, check it anyway.
+                if (false == path.Any())
+                {
+                    // Let the world know what we're doing.
+                    logger.LogDebug(
+                        "RenderFluentValidationValidatorAttribute::Generate called with an empty path!"
+                        );
+
+                    // Return the index.
+                    return index;
+                }
+
                 // Let the world know what we're doing.
                 logger.LogDebug(
-                    "Rendering a fluent validation validator for the form."
+                    "Rendering a fluent validator for the '{ObjType}' view-model.",
+                    path.First().GetType().Name
                     );
 
                 // Render the component.
