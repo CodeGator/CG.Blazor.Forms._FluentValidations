@@ -36,9 +36,9 @@ Platforms supported:
 
   <ItemGroup>
     <PackageReference Include="Blazored.FluentValidation" Version="2.0.3" />
-    <PackageReference Include="CG.Blazor.Forms" Version="2022.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.0" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.244">
+    <PackageReference Include="CG.Blazor.Forms" Version="2022.1.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.10" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.5.113">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
